@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>eventtebakgambar</name>
+    <events>
+        <variable constant="0" name="life" sid="131349867347532" static="0" type="number">5</variable>
+        <variable constant="0" name="score" sid="763384583438132" static="0" type="number">0</variable>
+        <variable constant="0" name="timer" sid="453262645674136" static="0" type="number">16</variable>
+        <event-block sid="488597002913346">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="975150881312508" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="498726627213322" type="backgroundtebakgambar">
+                    <param id="0" name="X">450</param>
+                    <param id="1" name="Y">250</param>
+                </action>
+                <action id="-3" name="Set position" sid="137824672913935" type="home">
+                    <param id="0" name="X">70</param>
+                    <param id="1" name="Y">50</param>
+                </action>
+                <action id="-3" name="Set position" sid="498057755461768" type="score">
+                    <param id="0" name="X">350</param>
+                    <param id="1" name="Y">10</param>
+                </action>
+                <action id="-3" name="Set position" sid="555307642375342" type="score">
+                    <param id="0" name="X">700</param>
+                    <param id="1" name="Y">10</param>
+                </action>
+                <action id="0" name="Call function" sid="772897791265577" type="Function">
+                    <param id="0" name="Name">&quot;buatsoal&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="208934451099546">
+            <conditions>
+                <condition id="0" name="On function" sid="913332414366576" type="Function">
+                    <param id="0" name="Name">&quot;buatsoal&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="205398213177261" type="cycling">
+                    <param id="0" name="X">450</param>
+                    <param id="1" name="Y">200</param>
+                </action>
+                <action id="-3" name="Set position" sid="154511200544213" type="swimming">
+                    <param id="0" name="X">700</param>
+                    <param id="1" name="Y">440</param>
+                </action>
+                <action id="-3" name="Set position" sid="249538703653327" type="singing2">
+                    <param id="0" name="X">450</param>
+                    <param id="1" name="Y">440</param>
+                </action>
+                <action id="-3" name="Set position" sid="828518527272338" type="cycling2">
+                    <param id="0" name="X">200</param>
+                    <param id="1" name="Y">440</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>BENAR</comment>
+        <event-block sid="523531347435227">
+            <conditions>
+                <condition id="17" name="On tap object" sid="359850684558790" type="Touch">
+                    <param id="0" name="Object">cycling2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="272093427593310" type="benar">
+                    <param id="0" name="X">450</param>
+                    <param id="1" name="Y">230</param>
+                </action>
+                <action id="-10" name="Add to" sid="538380846245135" type="System">
+                    <param id="0" name="Variable">score</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="399029999956338" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="822934918094355" type="benar" />
+            </actions>
+        </event-block>
+        <comment>SALAH</comment>
+        <event-block sid="947075604708186">
+            <conditions>
+                <condition id="17" name="On tap object" sid="155082576498358" type="Touch">
+                    <param id="0" name="Object">singing2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="116623718093147" type="salah">
+                    <param id="0" name="X">450</param>
+                    <param id="1" name="Y">440</param>
+                </action>
+                <action id="-10" name="Add to" sid="282887631316497" type="System">
+                    <param id="0" name="Variable">life</param>
+                    <param id="1" name="Value">-1</param>
+                </action>
+                <action id="-16" name="Wait" sid="281720727148857" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="329900039555252" type="salah" />
+            </actions>
+        </event-block>
+        <comment>SALAH</comment>
+        <event-block sid="557390899250856">
+            <conditions>
+                <condition id="17" name="On tap object" sid="546412675482078" type="Touch">
+                    <param id="0" name="Object">swimming</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="802578113164995" type="salah">
+                    <param id="0" name="X">450</param>
+                    <param id="1" name="Y">440</param>
+                </action>
+                <action id="-10" name="Add to" sid="564703281683145" type="System">
+                    <param id="0" name="Variable">life</param>
+                    <param id="1" name="Value">-1</param>
+                </action>
+                <action id="-16" name="Wait" sid="638204060902820" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="170107885792778" type="salah" />
+            </actions>
+            <sub-events>
+                <event-block sid="906671552900102">
+                    <conditions />
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="492128843479053">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="959860956763701" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="444733316032963" type="score">
+                    <param id="0" name="Text">&quot;SCORE: &quot;&amp;score</param>
+                </action>
+                <action id="0" name="Set text" sid="133644022998845" type="LIFE">
+                    <param id="0" name="Text">&quot;LIFE: &quot;&amp;life</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="737588077290221">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="939652199747159" type="System" />
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="877019972269152" type="System">
+                    <param id="0" name="Variable">timer</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set text" sid="343313912917929" type="timer">
+                    <param id="0" name="Text">&quot;TIME: &quot;&amp;timer</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

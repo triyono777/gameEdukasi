@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="0">tebakgambar</layout>
+        <event-sheet active="1" order="1">eventtebakgambar</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="object-folder/tebakgambar/" />
+        <folder expanded="1" path="object-folder/tebakgambar/jawaban/" />
+        <folder expanded="1" path="object-folder/tebakgambar/soal/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/blackboard2/" />
+        <folder expanded="1" path="animation-folder/banana2/" />
+        <folder expanded="1" path="animation-folder/chair2/" />
+        <folder expanded="1" path="animation-folder/cycling2/" />
+        <folder expanded="1" path="animation-folder/elephant2/" />
+        <folder expanded="1" path="animation-folder/fish2/" />
+        <folder expanded="1" path="animation-folder/ruler2/" />
+        <folder expanded="1" path="animation-folder/grape2/" />
+        <folder expanded="1" path="animation-folder/eye2/" />
+        <folder expanded="1" path="animation-folder/hair2/" />
+        <folder expanded="1" path="animation-folder/cow2/" />
+        <folder expanded="1" path="animation-folder/singing2/" />
+        <folder expanded="1" path="animation-folder/cooking2/" />
+        <folder expanded="1" path="animation-folder/swimming/" />
+        <folder expanded="1" path="animation-folder/red2/" />
+        <folder expanded="1" path="animation-folder/watermelon2/" />
+        <folder expanded="1" path="animation-folder/table2/" />
+        <folder expanded="1" path="animation-folder/ear2/" />
+        <folder expanded="1" path="animation-folder/tooth2/" />
+        <folder expanded="1" path="animation-folder/white2/" />
+        <folder expanded="1" path="animation-folder/yellow2/" />
+        <folder expanded="1" path="animation-folder/cat2/" />
+        <folder expanded="1" path="animation-folder/BANANA/" />
+        <folder expanded="1" path="animation-folder/BLACKBOARD/" />
+        <folder expanded="1" path="animation-folder/eye/" />
+        <folder expanded="1" path="animation-folder/GRAPE/" />
+        <folder expanded="1" path="animation-folder/hair/" />
+        <folder expanded="1" path="animation-folder/cow/" />
+        <folder expanded="1" path="animation-folder/COOKING/" />
+        <folder expanded="1" path="animation-folder/cycling/" />
+        <folder expanded="1" path="animation-folder/CHAIR/" />
+        <folder expanded="1" path="animation-folder/ear/" />
+        <folder expanded="1" path="animation-folder/FOOT/" />
+        <folder expanded="1" path="animation-folder/FISH/" />
+        <folder expanded="1" path="animation-folder/red/" />
+        <folder expanded="1" path="animation-folder/elephant/" />
+        <folder expanded="1" path="animation-folder/tooth/" />
+        <folder expanded="1" path="animation-folder/SINGING/" />
+        <folder expanded="1" path="animation-folder/table/" />
+        <folder expanded="1" path="animation-folder/WATERMELON/" />
+        <folder expanded="1" path="animation-folder/swiming/" />
+        <folder expanded="1" path="animation-folder/RULER/" />
+        <folder expanded="1" path="animation-folder/cat/" />
+        <folder expanded="1" path="animation-folder/WHITE/" />
+        <folder expanded="1" path="animation-folder/yellow/" />
+        <folder expanded="1" path="animation-folder/foot2/" />
+        <folder expanded="1" path="animation-folder/backgroundtebakgambar/" />
+        <folder expanded="1" path="animation-folder/home/" />
+        <folder expanded="1" path="animation-folder/benar/" />
+        <folder expanded="1" path="animation-folder/salah/" />
+    </folders-expanded>
+</c2uistate>
